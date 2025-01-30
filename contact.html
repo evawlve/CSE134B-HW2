@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Me - My Portfolio">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        console.log("Analytics script placeholder.");
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Get in Touch</h2>
+            <p>Fill out the form below to contact me!</p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <label for="contact-method">Preferred Contact Method:</label>
+                    <select id="contact-method" name="contact-method">
+                        <optgroup label="Online">
+                            <option value="email">Email</option>
+                            <option value="social">Social Media</option>
+                        </optgroup>
+                        <optgroup label="Phone">
+                            <option value="call">Call</option>
+                            <option value="text">Text Message</option>
+                        </optgroup>
+                    </select>
+                    
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+        </section>
+        
+        <hr>
+        
+        <section>
+            <h2>My Contact Details</h2>
+            <address>
+                Email: <a href="mailto:dimarquez@ucsd.edu">dimarquez@ucsd.edu</a><br>
+                Phone: (530) 537-6564<br>
+                Location: San Diego, CA
+            </address>
+        </section>
+        
+        <section>
+            <h2>Additional Info</h2>
+            <details>
+                <summary>Business Hours</summary>
+                <p>Monday - Friday: 9AM - 5PM</p>
+            </details>
+            
+            <dialog open>
+                <p><strong>Important:</strong> I typically respond within 24 hours.</p>
+                <button onclick="this.parentElement.close()">Close</button>
+            </dialog>
+        </section>
+
+        <section>
+            <h2>Search</h2>
+            <form role="search">
+                <input type="search" name="q" placeholder="Search this site">
+                <button type="submit">Go</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Diego Marquez | <a href="contact.html">Contact</a></p>
+    </footer>
+</body>
+</html>

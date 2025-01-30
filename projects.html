@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        console.log("Analytics script placeholder.");
+    </script>
+</head>
+<body>
+
+    <header>
+        <h1>My Projects</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Projects</h2>
+    
+            <table>
+                <caption>Project Overview</caption>
+                <colgroup>
+                    <col span="1" style="background-color: #f2f2f2;">
+                    <col span="1">
+                    <col span="1">
+                </colgroup>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies</th>
+                </tr>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>A personal portfolio to showcase my work.</td>
+                    <td><i>HTML, CSS, JavaScript</i></td>
+                </tr>
+                <tr>
+                    <td>Task Manager App</td>
+                    <td>A simple web app to manage tasks efficiently.</td>
+                    <td><i>HTML, CSS, JavaScript</i></td>
+                </tr>
+            </table>
+    
+            <h3>Project Showcase</h3>
+            <figure>
+                <img src="project1.png" alt="Screenshot of project 1" width="500">
+                <figcaption>
+                    <b>Portfolio Website Screenshot</b><br>
+                    <a href="https://github.com/evawlve/CSE134B-HW2" target="_blank">View on GitHub</a>
+                </figcaption>
+            </figure>
+            
+            <figure>
+                <img src="project2.png" alt="Screenshot of task manager app" width="500">
+                <figcaption>
+                    <b>Task Manager App UI</b><br>
+                    <a href="https://github.com/cse110-sp24-group21/cse110-sp24-group21" target="_blank">View on GitHub</a>
+                </figcaption>
+            </figure>
+            
+            <h3>More Projects</h3>
+            <template id="project-template">
+                <article>
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                    <a href="#">View Details</a>
+                </article>
+            </template>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Diego Marquez | <a href="contact.html">Contact</a></p>
+    </footer>
+
+</body>
+</html>
